@@ -1,0 +1,22 @@
+# IDE and environment-specific files
+.rules/
+.windsurf/
+
+# User-generated files (should not be in the package)
+migrator.config.js
+migrations/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Ignore development and test files
+__tests__/
+jest.config.js
+
+# Ignore backup files
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+npm-debug.log*

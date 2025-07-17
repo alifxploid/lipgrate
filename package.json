@@ -1,0 +1,40 @@
+{
+  "name": "lipgrate",
+  "version": "0.1.0",
+  "description": "Lipgrate is a clean and safe migration toolkit for SQL databases. Designed to be readable, minimal, and powerful.",
+  "main": "src/index.js",
+  "bin": {
+    "lipgrate": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alifxploid/lipgrate.git"
+  },
+  "keywords": [
+    "database",
+    "migration",
+    "sql",
+    "mysql",
+    "postgresql",
+    "sqlite"
+  ],
+  "author": "Lipgrate Team",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^17.2.0",
+    "fast-levenshtein": "^3.0.0",
+    "log-symbols": "^4.1.0",
+    "mysql2": "^3.10.2",
+    "pg": "^8.12.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}

@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# User-generated config (contains sensitive credentials)
+migrator.config.js
+
+# OS-specific files
+.DS_Store
+npm-debug.log*
