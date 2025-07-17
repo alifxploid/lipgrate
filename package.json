@@ -4,7 +4,7 @@
   "description": "Lipgrate is a clean and safe migration toolkit for SQL databases. Designed to be readable, minimal, and powerful.",
   "main": "src/index.js",
   "bin": {
-    "lipgrate": "./src/cli.js"
+    "lipgrate": "src/cli.js"
   },
   "scripts": {
     "test": "jest"
